@@ -31,11 +31,9 @@
     //number generate 1-6
     int diceRoll = arc4random_uniform(6)+1;
     
-    
     //display when roll is called in main
     NSLog(@"You rolled a %i",diceRoll);
 
-    
     //your current position increments when a new dice rolls
     self.currentSquare += diceRoll;
 
@@ -47,19 +45,32 @@
 
 //**Only using currentSquareCompare to compare i will pass on the new value of _currentSquare after.. as currentSquareCompare becomes an independent variable***
     
-//destination will now hold the new key value
+//destination will now hold the new key value everytime it loops
    NSNumber *destination = [self.gameLogic objectForKey:currentSquareCompare];
 
-//IF the number rolls into one of the designated number assigned move it to that new destination..
+    
+    
+//IF the number rolls into one of the designated number assigned move it to that new destination.. this _currentSquare is independent than the one on top!!!!
     if (destination) {
-        NSInteger newDestination = [destination integerValue];
-        _currentSquare = newDestination;
+        NSInteger destinationInteger = [destination integerValue];
+        
+        if(destinationInteger > self.currentSquare){
+            self.output = [NSString stringWithFormat:@"Stairway to heaven you went up from %lu to %lu",self.currentSquare, destinationInteger];
+            NSLog(@"%@",self.output);
+        } else if (destinationInteger < self.currentSquare){
+            self.output = [NSString stringWithFormat:@"Get f*cked you went from %lu to %lu",destinationInteger, self.currentSquare];
+            NSLog(@"%@",self.output);
+        }
+        
+        
+        _currentSquare = destinationInteger;
     }
+    
+    
     
     
 //sequential order matters a lot make sure to put currentSquare on bottom!.
 NSLog(@"Your current position is %lu",self.currentSquare);
-    
 }
 
 @end
