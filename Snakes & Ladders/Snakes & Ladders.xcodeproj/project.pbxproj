@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DAB61BA01F645D5F00C54F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB61B9F1F645D5F00C54F08 /* main.m */; };
+		DAB61BA81F64627000C54F08 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB61BA71F64627000C54F08 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DAB61B9C1F645D5F00C54F08 /* Snakes & Ladders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snakes & Ladders"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB61B9F1F645D5F00C54F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB61BA61F64627000C54F08 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DAB61BA71F64627000C54F08 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DAB61B9F1F645D5F00C54F08 /* main.m */,
+				DAB61BA61F64627000C54F08 /* Player.h */,
+				DAB61BA71F64627000C54F08 /* Player.m */,
 			);
 			path = "Snakes & Ladders";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB61BA81F64627000C54F08 /* Player.m in Sources */,
 				DAB61BA01F645D5F00C54F08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
