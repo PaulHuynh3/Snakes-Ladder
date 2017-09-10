@@ -14,9 +14,9 @@ int main(int argc, const char * argv[]) {
         
         Player *player = [[Player alloc]init];
                 
-    NSLog(@"Welcome to Snakes and Ladders. Please type r to begin! --- to exit enter 0");
-    int game = 0;
-    while (game <= 100) {
+    NSLog(@"Welcome to Snakes and Ladders. Please type r to begin!");
+    //the property default is no... when it hits yes game is over.
+    while (player.gameOver) {
         
         //set character to 255
         char inputchars [255];
@@ -28,18 +28,16 @@ int main(int argc, const char * argv[]) {
         NSString* charToString = [NSString stringWithCString:inputchars encoding:NSUTF8StringEncoding];
         
         NSString* userAnswer = [charToString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-//        //convert string to integer
-//        int answerInteger = [userAnswer intValue];
-//        //user wants to END The game
-//        if(answerInteger == 0){
-//            break;
-//        }
+        
+        
         
         if ([userAnswer isEqualToString:@"r"] || [userAnswer isEqualToString:@"roll"]){
            
         
     //when you set this to void _currentSquare can not equal to roll.
              [player roll];
+         
+        
             
             
         }
