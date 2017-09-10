@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DAB61B9B1F645D5F00C54F08"
-               BuildableName = "Snakes &amp; Ladders"
-               BlueprintName = "Snakes &amp; Ladders"
-               ReferencedContainer = "container:Snakes &amp; Ladders.xcodeproj">
+               BlueprintIdentifier = "DA5A2EF91F64C70300C512CA"
+               BuildableName = "Snakes &amp; Ladder"
+               BlueprintName = "Snakes &amp; Ladder"
+               ReferencedContainer = "container:Snakes &amp; Ladder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAB61B9B1F645D5F00C54F08"
-            BuildableName = "Snakes &amp; Ladders"
-            BlueprintName = "Snakes &amp; Ladders"
-            ReferencedContainer = "container:Snakes &amp; Ladders.xcodeproj">
+            BlueprintIdentifier = "DA5A2EF91F64C70300C512CA"
+            BuildableName = "Snakes &amp; Ladder"
+            BlueprintName = "Snakes &amp; Ladder"
+            ReferencedContainer = "container:Snakes &amp; Ladder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAB61B9B1F645D5F00C54F08"
-            BuildableName = "Snakes &amp; Ladders"
-            BlueprintName = "Snakes &amp; Ladders"
-            ReferencedContainer = "container:Snakes &amp; Ladders.xcodeproj">
+            BlueprintIdentifier = "DA5A2EF91F64C70300C512CA"
+            BuildableName = "Snakes &amp; Ladder"
+            BlueprintName = "Snakes &amp; Ladder"
+            ReferencedContainer = "container:Snakes &amp; Ladder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DAB61B9B1F645D5F00C54F08"
-            BuildableName = "Snakes &amp; Ladders"
-            BlueprintName = "Snakes &amp; Ladders"
-            ReferencedContainer = "container:Snakes &amp; Ladders.xcodeproj">
+            BlueprintIdentifier = "DA5A2EF91F64C70300C512CA"
+            BuildableName = "Snakes &amp; Ladder"
+            BlueprintName = "Snakes &amp; Ladder"
+            ReferencedContainer = "container:Snakes &amp; Ladder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

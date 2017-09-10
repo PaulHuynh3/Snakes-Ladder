@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DAB61BA01F645D5F00C54F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB61B9F1F645D5F00C54F08 /* main.m */; };
-		DAB61BA81F64627000C54F08 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB61BA71F64627000C54F08 /* Player.m */; };
+		DA5A2EFE1F64C70300C512CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5A2EFD1F64C70300C512CA /* main.m */; };
+		DA5A2F061F64C72900C512CA /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5A2F051F64C72900C512CA /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DAB61B9A1F645D5F00C54F08 /* CopyFiles */ = {
+		DA5A2EF81F64C70300C512CA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DAB61B9C1F645D5F00C54F08 /* Snakes & Ladders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snakes & Ladders"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB61B9F1F645D5F00C54F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DAB61BA61F64627000C54F08 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		DAB61BA71F64627000C54F08 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		DA5A2EFA1F64C70300C512CA /* Snakes & Ladder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Snakes & Ladder"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5A2EFD1F64C70300C512CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA5A2F041F64C72900C512CA /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		DA5A2F051F64C72900C512CA /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DAB61B991F645D5F00C54F08 /* Frameworks */ = {
+		DA5A2EF71F64C70300C512CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DAB61B931F645D5F00C54F08 = {
+		DA5A2EF11F64C70300C512CA = {
 			isa = PBXGroup;
 			children = (
-				DAB61B9E1F645D5F00C54F08 /* Snakes & Ladders */,
-				DAB61B9D1F645D5F00C54F08 /* Products */,
+				DA5A2EFC1F64C70300C512CA /* Snakes & Ladder */,
+				DA5A2EFB1F64C70300C512CA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DAB61B9D1F645D5F00C54F08 /* Products */ = {
+		DA5A2EFB1F64C70300C512CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAB61B9C1F645D5F00C54F08 /* Snakes & Ladders */,
+				DA5A2EFA1F64C70300C512CA /* Snakes & Ladder */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAB61B9E1F645D5F00C54F08 /* Snakes & Ladders */ = {
+		DA5A2EFC1F64C70300C512CA /* Snakes & Ladder */ = {
 			isa = PBXGroup;
 			children = (
-				DAB61B9F1F645D5F00C54F08 /* main.m */,
-				DAB61BA61F64627000C54F08 /* Player.h */,
-				DAB61BA71F64627000C54F08 /* Player.m */,
+				DA5A2EFD1F64C70300C512CA /* main.m */,
+				DA5A2F041F64C72900C512CA /* Player.h */,
+				DA5A2F051F64C72900C512CA /* Player.m */,
 			);
-			path = "Snakes & Ladders";
+			path = "Snakes & Ladder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAB61B9B1F645D5F00C54F08 /* Snakes & Ladders */ = {
+		DA5A2EF91F64C70300C512CA /* Snakes & Ladder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAB61BA31F645D5F00C54F08 /* Build configuration list for PBXNativeTarget "Snakes & Ladders" */;
+			buildConfigurationList = DA5A2F011F64C70300C512CA /* Build configuration list for PBXNativeTarget "Snakes & Ladder" */;
 			buildPhases = (
-				DAB61B981F645D5F00C54F08 /* Sources */,
-				DAB61B991F645D5F00C54F08 /* Frameworks */,
-				DAB61B9A1F645D5F00C54F08 /* CopyFiles */,
+				DA5A2EF61F64C70300C512CA /* Sources */,
+				DA5A2EF71F64C70300C512CA /* Frameworks */,
+				DA5A2EF81F64C70300C512CA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Snakes & Ladders";
-			productName = "Snakes & Ladders";
-			productReference = DAB61B9C1F645D5F00C54F08 /* Snakes & Ladders */;
+			name = "Snakes & Ladder";
+			productName = "Snakes & Ladder";
+			productReference = DA5A2EFA1F64C70300C512CA /* Snakes & Ladder */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DAB61B941F645D5F00C54F08 /* Project object */ = {
+		DA5A2EF21F64C70300C512CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Paul;
 				TargetAttributes = {
-					DAB61B9B1F645D5F00C54F08 = {
+					DA5A2EF91F64C70300C512CA = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DAB61B971F645D5F00C54F08 /* Build configuration list for PBXProject "Snakes & Ladders" */;
+			buildConfigurationList = DA5A2EF51F64C70300C512CA /* Build configuration list for PBXProject "Snakes & Ladder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DAB61B931F645D5F00C54F08;
-			productRefGroup = DAB61B9D1F645D5F00C54F08 /* Products */;
+			mainGroup = DA5A2EF11F64C70300C512CA;
+			productRefGroup = DA5A2EFB1F64C70300C512CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAB61B9B1F645D5F00C54F08 /* Snakes & Ladders */,
+				DA5A2EF91F64C70300C512CA /* Snakes & Ladder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DAB61B981F645D5F00C54F08 /* Sources */ = {
+		DA5A2EF61F64C70300C512CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB61BA81F64627000C54F08 /* Player.m in Sources */,
-				DAB61BA01F645D5F00C54F08 /* main.m in Sources */,
+				DA5A2F061F64C72900C512CA /* Player.m in Sources */,
+				DA5A2EFE1F64C70300C512CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DAB61BA11F645D5F00C54F08 /* Debug */ = {
+		DA5A2EFF1F64C70300C512CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		DAB61BA21F645D5F00C54F08 /* Release */ = {
+		DA5A2F001F64C70300C512CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,14 +221,14 @@
 			};
 			name = Release;
 		};
-		DAB61BA41F645D5F00C54F08 /* Debug */ = {
+		DA5A2F021F64C70300C512CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DAB61BA51F645D5F00C54F08 /* Release */ = {
+		DA5A2F031F64C70300C512CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -238,24 +238,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAB61B971F645D5F00C54F08 /* Build configuration list for PBXProject "Snakes & Ladders" */ = {
+		DA5A2EF51F64C70300C512CA /* Build configuration list for PBXProject "Snakes & Ladder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAB61BA11F645D5F00C54F08 /* Debug */,
-				DAB61BA21F645D5F00C54F08 /* Release */,
+				DA5A2EFF1F64C70300C512CA /* Debug */,
+				DA5A2F001F64C70300C512CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAB61BA31F645D5F00C54F08 /* Build configuration list for PBXNativeTarget "Snakes & Ladders" */ = {
+		DA5A2F011F64C70300C512CA /* Build configuration list for PBXNativeTarget "Snakes & Ladder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAB61BA41F645D5F00C54F08 /* Debug */,
-				DAB61BA51F645D5F00C54F08 /* Release */,
+				DA5A2F021F64C70300C512CA /* Debug */,
+				DA5A2F031F64C70300C512CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DAB61B941F645D5F00C54F08 /* Project object */;
+	rootObject = DA5A2EF21F64C70300C512CA /* Project object */;
 }
